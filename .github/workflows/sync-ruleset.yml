@@ -21,9 +21,15 @@ jobs:
             https://github.com/DustinWin/ruleset_geodata.git \
             source-repo
 
+      - name: Debug directory structure
+        run: |
+          ls -la
+          ls -la .github
+          ls -la .github/scripts
+
       - name: Modify .list files
         run: |
-          python ./.github/scripts/modify_rules.py
+          python ${{ github.workspace }}/.github/scripts/modify_rules.py
 
       - name: Commit & Push Changes
         run: |
