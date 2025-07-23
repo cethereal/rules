@@ -2,7 +2,7 @@ import os
 import re
 
 SOURCE_DIR = "source-repo"
-TARGET_DIR = "target-repo"
+TARGET_DIR = "."
 
 def modify_files():
     for root, _, files in os.walk(SOURCE_DIR):
