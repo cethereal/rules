@@ -35,9 +35,11 @@ jobs:
 
       - name: Commit & Push Changes
         run: |
-          cd target-repo
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
           git add .
           git diff-index --quiet HEAD || git commit -m "Auto: Update ruleset"
           git push origin main
+
+      - name: Clean up
+        run: rm -rf source-repo
