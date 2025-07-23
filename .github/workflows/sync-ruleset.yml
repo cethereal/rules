@@ -39,7 +39,7 @@ jobs:
           git config user.email "actions@github.com"
           git add .
           git diff-index --quiet HEAD || git commit -m "Auto: Update ruleset"
-          git push origin main
+          git push origin ruleset
 
       - name: Clean up
         run: rm -rf source-repo
