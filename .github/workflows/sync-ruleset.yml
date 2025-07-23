@@ -8,13 +8,40 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout current repo
+      # 1. 检出 master 分支（包含工作流和脚本）
+      - name: Checkout master branch (for scripts)
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.PAT }}
-          ref: ruleset
-          # 移除 path 参数
-          fetch-depth: 0  # 获取完整历史记录
+          ref: master  # 检出包含脚本的 master 分支
+          path: scripts-repo  # 将脚本放在单独目录
+          sparse-checkout: .github/scripts  # 只检出脚本目录
+          fetch-depth: 0
+
+      # 2. 准备 ruleset 分支工作区
+      - name: Prepare ruleset workspace
+        id: prepare
+        run: |
+          # 创建新的工作目录
+          mkdir -p ruleset-workspace
+          cd ruleset-workspace
+
+          # 初始化 Git 仓库
+          git init
+          git remote add origin https://${{ github.actor }}:${{ secrets.PAT }}@github.com/${{ github.repository }}.git
+
+          # 检查分支是否存在
+          if git ls-remote --exit-code --heads origin ruleset; then
+            echo "Branch exists"
+            git fetch origin ruleset
+            git checkout ruleset
+          else
+            echo "Creating new branch"
+            git checkout --orphan ruleset
+            # 创建初始空提交
+            git commit --allow-empty -m "Initial commit for ruleset branch"
+            git push -u origin ruleset
+          fi
 
       - name: Clone source ruleset
         run: |
@@ -25,10 +52,21 @@ jobs:
 
       - name: Modify .list files
         run: |
-          python ${{ github.workspace }}/.github/scripts/modify_rules.py
+          python scripts-repo/.github/scripts/modify_rules.py
 
       - name: Commit & Push Changes
         run: |
+          cd ruleset-workspace
+
+          # 删除旧文件（保留 .git 目录）
+          find . -path ./.git -prune -o -exec rm -rf {} \; 2>/dev/null || true
+
+          # 复制修改后的规则文件
+          cd ..
+          cp -r source-repo/* ruleset-workspace/
+
+          # 提交
+          cd ruleset-workspace
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
           git add .
@@ -36,4 +74,7 @@ jobs:
           git push origin ruleset
 
       - name: Clean up
-        run: rm -rf source-repo
+        run: |
+          rm -rf source-repo
+          rm -rf ruleset-workspace
+          rm -rf scripts-repo
