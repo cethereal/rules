@@ -23,7 +23,7 @@ jobs:
 
       - name: Modify .list files
         run: |
-          python .github/scripts/modify_rules.py
+          python ./.github/scripts/modify_rules.py
 
       - name: Commit & Push Changes
         run: |
