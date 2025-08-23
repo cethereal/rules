@@ -19,6 +19,10 @@ PROCESS-NAME,fdm
 PROCESS-NAME,fdm.exe
 PROCESS-NAME,Folx
 PROCESS-NAME,Folx.exe
+PROCESS-NAME,frpc
+PROCESS-NAME,frpc.exe
+PROCESS-NAME,frps
+PROCESS-NAME,frps.exe
 PROCESS-NAME,hysteria
 PROCESS-NAME,hysteria.exe
 PROCESS-NAME,leaf
@@ -57,6 +61,10 @@ PROCESS-NAME,Surge 4
 PROCESS-NAME,Surge%202
 PROCESS-NAME,Surge%203
 PROCESS-NAME,Surge%204
+PROCESS-NAME,tailscale
+PROCESS-NAME,tailscale.exe
+PROCESS-NAME,tailscaled
+PROCESS-NAME,tailscaled.exe
 PROCESS-NAME,Thunder
 PROCESS-NAME,Thunder.exe
 PROCESS-NAME,ThunderVIP.exe
@@ -95,3 +103,6 @@ PROCESS-NAME,xdman
 PROCESS-NAME,xdman.exe
 PROCESS-NAME,xray
 PROCESS-NAME,xray.exe
+PROCESS-NAME,zerotier-one
+PROCESS-NAME,zerotier-one.exe
+PROCESS-NAME,zerotier-one_x64.exe

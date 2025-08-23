@@ -44,7 +44,6 @@
 .stun.*.*.*
 .stun.*.*.*.*
 .stun.*.*.*.*.*
-.stun.playstation.net
 .test
 .time.edu.cn
 .uu.163.com
@@ -91,9 +90,6 @@ shark007.net
 songsearch.kugou.com
 static.adtidy.org
 streamoc.music.tc.qq.com
-stun.*.*
-stun.*.*.*
-stun.l.google.com
 swcdn.apple.com
 swdist.apple.com
 swdownload.apple.com
