@@ -207,8 +207,6 @@ mesu.apple.com
 misc-assets.itunes.apple.com
 ml.cdn-apple.com
 monitoring.qpdp1.net
-msgr.dlservice.microsoft.com
-msgruser.dlservice.microsoft.com
 music.apple.com
 myapp.itunes.apple.com
 np-edge.itunes.apple.com
@@ -239,7 +237,6 @@ proxyconfig.corp.google.com
 publicassets.cdn-apple.com
 qagpublic.qatp1.net
 qgadmin.qcpp1.net
-qh.dlservice.microsoft.com
 qpx.googleflights.net
 qualysapi.qatp1.net
 qualysguard.qpdp1.net
@@ -275,8 +272,6 @@ sf-api-token-service.itunes.apple.com
 sh-pod2-smp-device.apple.com
 shazam-insights.cdn-apple.com
 si.cdn.dell.com
-silverlight.dlservice.microsoft.com
-slupdate.dlservice.microsoft.com
 sm.dell.com
 smart.uhdnow.com
 smp-device-content.apple.com
@@ -337,7 +332,6 @@ weather-data.apple.com
 weather-map.apple.com
 weather-map2.apple.com
 weatherkit.apple.com
-wl.dlservice.microsoft.com
 www-csb.dell.com
 www-google-analytics.l.google.com
 www-googletagmanager.l.google.com
@@ -349,7 +343,6 @@ www.recaptcha.net
 www.support.apple.com
 www.yxssp.com
 www4-static.gog-statics.com
-xb.dlservice.microsoft.com
 xn--flw351e.com
 xp.apple.com
 .0.zone
