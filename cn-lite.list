@@ -1,6 +1,8 @@
 265.com
 2mdn-cn.net
 2mdn.net
+activate.activation-v2.kaspersky.com
+activation-v2.geo.kaspersky.com
 activation-v2.kaspersky.com
 adcdownload.apple.com
 admob-cn.com
@@ -143,6 +145,7 @@ downloaddispatch.itunes.apple.com
 ea2cn-dev-outlet.dell.com
 ea2cn-prod-outlet.dell.com
 ea2cn-staging-outlet.dell.com
+edge.geo.kaspersky.com
 emmapplecodevice.googleapis.com
 emoi-cncdn.bing.com
 experiments.apple.com
@@ -233,6 +236,18 @@ itunesconnect.apple.com
 js-cdn.music.apple.com
 kc.kexinshe.com
 km.support.apple.com
+ksn-cinfo.geoksn.kaspersky.com
+ksn-crypto-wifiplus.geoksn.kaspersky.com
+ksn-dc1-cert.geoksn.kaspersky.com
+ksn-dc1-file.geoksn.kaspersky.com
+ksn-dc1.geoksn.kaspersky.com
+ksn-file.geoksn.kaspersky.com
+ksn-info.geoksn.kaspersky.com
+ksn-kas.geoksn.kaspersky.com
+ksn-mdr.geoksn.kaspersky.com
+ksn-tcert.geoksn.kaspersky.com
+ksn-url.geoksn.kaspersky.com
+ksn-verdict.geoksn.kaspersky.com
 l2-uberproxy.corp.google.com
 learn.microsoft.com
 logger-dev.corp.google.com
@@ -318,6 +333,7 @@ redirector.gvt1.com
 redirector.offline-maps.gvt1.com
 redirector.snap.gvt1.com
 redirector.xn--ngstr-lra8j.com
+refresh-bkg.activation-v2.kaspersky.com
 reserve-prime.apple.com
 s00.upd.kaspersky.com
 s01.upd.kaspersky.com
@@ -3915,7 +3931,6 @@ xz.pphimalayanrt.com
 .onlinesjtu.com
 .onlylady.com
 .oojsq.com
-.ooklaserver.net
 .oortgslb.com
 .opdown.com
 .open.cd
@@ -4552,7 +4567,6 @@ xz.pphimalayanrt.com
 .tapimg.com
 .tapimg.net
 .taptap.com
-.taptap.io
 .taptapdada.com
 .tawk.link
 .tawk.to
