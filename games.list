@@ -4,6 +4,7 @@ assets.ppy.sh
 blizzard.gcdn.cloudn.co.kr
 c.ppy.sh
 client.hikarifield.co.jp
+d1unuk07s6td74.cloudfront.net
 datarouter.apps.netherrealm.com
 dlgarenanow-a.akamaihd.net
 download.hikarifield.co.jp
@@ -22,6 +23,9 @@ notify.ppy.sh
 originasserts.akamaized.net
 osu.ppy.sh
 prodforza.blob.core.windows.net
+roblox-load-generator-configuration.s3.us-east-2.amazonaws.com
+roblox-poc.global.ssl.fastly.net
+robloxcorp.s.llnwi.net
 sentry.ppy.sh
 spectator.ppy.sh
 steamcloudsweden.blob.core.windows.net
@@ -479,6 +483,9 @@ wb-agora-hydra-file-storage-k1.s3.amazonaws.com
 .quixel.com
 .quixel.se
 .radgametools.com
+.rblx.org
+.rbx.com
+.rbxcdn.com
 .realityscan.com
 .renovacionxboxlive.com
 .rgpub.io
@@ -496,6 +503,9 @@ wb-agora-hydra-file-storage-k1.s3.amazonaws.com
 .riotgames.zendesk.com
 .riotpin.com
 .riotpoints.com
+.roblox-api.arkoselabs.co
+.roblox.com
+.robloxlabs.com
 .roborecall.com
 .rockstargames.com
 .rsg.sc
