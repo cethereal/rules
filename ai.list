@@ -3,7 +3,6 @@ alkalicore-pa.clients6.google.com
 alkalimakersuite-pa.clients6.google.com
 antigravity-pa.googleapis.com
 antigravity.googleapis.com
-api.githubcopilot.com
 api.together.xyz
 cloudaicompanion.googleapis.com
 cloudcode-pa.googleapis.com
@@ -75,6 +74,7 @@ webchannel-alkalimakersuite-pa.clients6.google.com
 .gemini.google.com
 .generativeai.google
 .generativelanguage.googleapis.com
+.githubcopilot.com
 .grazie.ai
 .grazie.aws.intellij.net
 .grok.com
