@@ -23,7 +23,6 @@ notify.ppy.sh
 originasserts.akamaized.net
 osu.ppy.sh
 prodforza.blob.core.windows.net
-pubg1.battleye.com
 roblox-load-generator-configuration.s3.us-east-2.amazonaws.com
 roblox-poc.global.ssl.fastly.net
 robloxcorp.s.llnwi.net
@@ -97,6 +96,7 @@ wb-agora-hydra-file-storage-k1.s3.amazonaws.com
 .battlelog.com
 .battlenet.com
 .battlenet.com.cn
+.battleye.com
 .bejeweledstars.com
 .bejewled-stars.com
 .beth.games
@@ -114,7 +114,9 @@ wb-agora-hydra-file-storage-k1.s3.amazonaws.com
 .blizzardgearstore.com
 .blizzcon-a.akamaihd.net
 .blox.com
+.bluearchive-cn.com
 .bluearchive.jp
+.bluestacks.com
 .blz-contentstack.com
 .blz.nosdn.127.net
 .blzddist1-a.akamaihd.net
@@ -146,6 +148,7 @@ wb-agora-hydra-file-storage-k1.s3.amazonaws.com
 .clashofclans.com
 .clashroyale.com
 .clashroyaleapp.com
+.client-update.queniuqe.com
 .cloudsync-prod.s3.amazonaws.com
 .cncrivals.com
 .commandandconquer.com
@@ -154,7 +157,6 @@ wb-agora-hydra-file-storage-k1.s3.amazonaws.com
 .crossout.net
 .crsed.net
 .crysis.jp
-.csgo.wmsj.cn
 .cubicmotion.com
 .cubicodyssey.game
 .curseforge.com
@@ -178,14 +180,11 @@ wb-agora-hydra-file-storage-k1.s3.amazonaws.com
 .diddykongracing.com
 .dinopoloclub.com
 .dkr.com
-.dl.steam.clngaa.com
-.dl.steam.ksyna.com
 .dlmobilegarena-a.akamaihd.net
 .dodi-repacks.download
 .dodi-repacks.site
 .donkeykongcountryreturns.com
 .doom.com
-.dota2.wmsj.cn
 .dragonage.com
 .dragonagekeep.com
 .dragonagemovie.com
@@ -243,6 +242,7 @@ wb-agora-hydra-file-storage-k1.s3.amazonaws.com
 .faceit-cdn.net
 .faceit.com
 .fanatical.com
+.fflogs.com
 .fifastreet.com
 .fifastreet3.com
 .fire-emblem-heroes.com
@@ -293,6 +293,7 @@ wb-agora-hydra-file-storage-k1.s3.amazonaws.com
 .gog.com
 .gog.qtlglb.com
 .gooblox.com
+.gstore.val.manlaxy.com
 .hackyourconsole.com
 .hayday.com
 .haydaygame.com
@@ -359,6 +360,7 @@ wb-agora-hydra-file-storage-k1.s3.amazonaws.com
 .loverslab.com
 .lowiro.com
 .lpl.com.cn
+.maa.plus
 .maddenchampionship.com
 .maddenrewards.com
 .maddenseason.info
@@ -497,6 +499,8 @@ wb-agora-hydra-file-storage-k1.s3.amazonaws.com
 .playapex.com
 .playartifact.com
 .playbattlegrounds.com
+.playcover.io
+.playcover.workers.dev
 .playhearthstone.com
 .playnintendo.com
 .playoverwatch.com
@@ -509,6 +513,7 @@ wb-agora-hydra-file-storage-k1.s3.amazonaws.com
 .playwarcraft3.com
 .pogo.com
 .pogobeta.com
+.poi.moe
 .pokedex3d.com
 .pokemon-moon.com
 .pokemon-sun.com
@@ -538,6 +543,7 @@ wb-agora-hydra-file-storage-k1.s3.amazonaws.com
 .prismlauncher.org
 .projectapex.com
 .protondb.com
+.prts.plus
 .pubg.com
 .pvp.net
 .pvp.tv
@@ -609,6 +615,7 @@ wb-agora-hydra-file-storage-k1.s3.amazonaws.com
 .rockstarnorth.com
 .rowblocks.com
 .rowblox.com
+.rpglogs.com
 .rsg.sc
 .rstatic.net
 .ruinedking.com
@@ -639,9 +646,6 @@ wb-agora-hydra-file-storage-k1.s3.amazonaws.com
 .spyjinx.com
 .squadbusters.com
 .ssx3.com
-.st.dl.bscstorage.net
-.st.dl.eccdnx.com
-.st.dl.pinyuncloud.com
 .star-conflict.com
 .starcraft.com
 .starcraft2.com
@@ -667,7 +671,6 @@ wb-agora-hydra-file-storage-k1.s3.amazonaws.com
 .steamcdn-a.akamaihd.net
 .steamcommunity-a.akamaihd.net
 .steamcommunity.com
-.steamcontent.com
 .steamcontent.tnkjmec.com
 .steamdb.info
 .steamdeck.com
@@ -678,15 +681,11 @@ wb-agora-hydra-file-storage-k1.s3.amazonaws.com
 .steampipe-partner.akamaized.net
 .steampipe.akamaized.net
 .steampowered.com
-.steampowered.com.8686c.com
-.steamserver.net
 .steamstat.us
 .steamstatic.com
-.steamstatic.com.8686c.com
 .steamstore-a.akamaihd.net
 .steamunlocked.net
 .steamusercontent-a.akamaihd.net
-.steamusercontent.com
 .steamuserimages-a.akamaihd.net
 .steamvideo-a.akamaihd.net
 .stellasora.global
@@ -721,11 +720,14 @@ wb-agora-hydra-file-storage-k1.s3.amazonaws.com
 .thesims3.com
 .thesims4.com
 .thesimssocial.com
+.thetrackernetwork.com
 .thewonderful101.com
 .tiberiumalliances.com
 .tiburon.com
 .titanfall.com
 .tnt-ea.com
+.tracker.gg
+.tracker.network
 .twinmotion.com
 .ubi.com
 .ubisoft-orbit-savegames.s3.amazonaws.com
@@ -766,7 +768,6 @@ wb-agora-hydra-file-storage-k1.s3.amazonaws.com
 .wiisportsresort.com
 .wiiugamepad.com
 .wiivc.net
-.wmsjsteam.com
 .worldflipper.akamaized.net
 .worldflipper.jp
 .worldofwarcraft.com
@@ -806,6 +807,7 @@ wb-agora-hydra-file-storage-k1.s3.amazonaws.com
 .yogify.com
 .yoshisnewisland.com
 .yostar-pictures.co.jp
+.yostar.cn
 .yostar.co.jp
 .yostar.net
 .yostarplat.com
