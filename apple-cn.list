@@ -1,3 +1,4 @@
+amp-api.podcasts.apple.com
 cdn-cn.apple-mapkit.com
 certs-lb.apple.com.akadns.net
 cl2-cdn.origin-apple.com.akadns.net
@@ -11,6 +12,7 @@ gspe85-cn-ssl.ls.apple.com
 init.gc-lb.apple.com.akadns.net
 init.gc.apple.com
 maps.apple.com
+podcasts.apple.com
 s1.mzstatic.com
 s2.mzstatic.com
 s3.mzstatic.com
